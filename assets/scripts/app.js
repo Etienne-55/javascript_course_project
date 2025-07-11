@@ -1,19 +1,12 @@
-let currentResult = 12;
-const defaultResult = 0
+const defaultResult = 0;
 
-currentResult = currentResult - 2;
+let currentResult = defaultResult;
 
-let printDefaultResult = `${defaultResult}`;
+function add(num1, num2) {
+    const result = num1 + num2;
+    return result;
+}
 
-outputResult(currentResult, defaultResult);  
+currentResult = add(1, 2);
 
-let userInput = 15;
-
-let result;
-
-result = 18 + userInput;
-
-result = result - 16;
-
-alert(result);
-alert(userInput)
+outputResult(currentResult, '')
