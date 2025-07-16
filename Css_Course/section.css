@@ -1,11 +1,12 @@
-section {
-            background: gray;
-        }
-h1 {
-    color: black;
-    font-family: sans-serif;
+body {
+        background: red;
 }
 
 .selection-title {
     color: greenyellow;
+}
+
+h1 {
+    color: black;
+    font-family: 'Anton', sans-serif;
 }
